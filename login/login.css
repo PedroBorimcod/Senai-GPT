@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
-padding: 0%;
-margin: 0%;
-box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 
 }
 
@@ -12,6 +12,11 @@ box-sizing: border-box;
     color: black;
     font-size: 76px;
 }
+
+.page-container{
+    display: flex;
+}
+
 
 h1{
     font-size: 76px;
@@ -22,12 +27,12 @@ h1{
 
 .inpt{
 
-padding: 18px; /*Espaçamentyo interno */
-border: none; /*Remove a borda */
-background-color: #f7f9fb; /* Colocar cor */
-border-radius: 10px;
-width: 377px;
-margin-bottom: 16px;
+    padding: 18px; /*Espaçamentyo interno */
+    border: none; /*Remove a borda */
+    background-color: #f7f9fb; /* Colocar cor */
+    border-radius: 10px;
+    width: 377px;
+    margin-bottom: 16px;
 }
 .btn{
     font-size: medium;
@@ -45,8 +50,19 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 50vw;
 }
 
 .logo{
     height: 60px;
+}
+.robo-image{
+    background-image: url(../assets/imgs/Rectangle\ 1.png);
+        /* "Backgroud-img serve para colocar imagem dentro do css" */
+    background-size: cover;
+        /* "Backgroud-size" Serve para distribuir a imagem dentro do espaço da minha div */
+    width: 50vw;
+        /* "Serve para definir altura da minha classe" */
+    height: 100vh;
+        /* Serve para definir largura da minha classe */
 }
