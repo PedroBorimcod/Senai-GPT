@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.inpt{
+
+    padding: 18px; /*Espaçamentyo interno */
+    border: none; /*Remove a borda */
+    background-color: #f7f9fb; /* Colocar cor */
+    border-radius: 10px;
+    width: 377px;
+    margin-bottom: 16px;
+}
+.btn{
+    font-size: medium;
+    background-color: black;
+    color: white;
+    width: 377px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 18px;
+}
