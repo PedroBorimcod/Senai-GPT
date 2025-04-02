@@ -29,6 +29,9 @@
     align-items: center;
     margin-right: 20px;
     font-family: inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
  .central-panel  .dicas-item h2 {
@@ -37,6 +40,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+
 
 }
 .central-panel  .dicas-item p {
@@ -48,7 +52,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 
 }
 .container{
@@ -97,7 +100,7 @@
 
 }
 .input-container input {
-    padding: 20px;
+    padding: 35px;
     border: none;
     background-color: #f7f9fb;
     border-radius: 16px;
@@ -111,19 +114,39 @@
     padding: 37px;
     border : none;
     color: black;
-    margin-top: 130px;
+    margin-top: 17px;
     height: 9px;
     padding-right: 30px;
     padding-left: 70px;
     font-family: inter;
-    
-    
 }
 .btn-chat img {
     margin-right: 15px;
 }
+.input-container-1{
+    margin-top: auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #f7f9fb;
+    border-radius: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.input-container-1 input {
+    border: none ;
+    padding: 20px;
+    background-color: transparent;
+    width: 40vw;
 
-.incon-enviar{
-    width: 2vh;
-    
+}
+.chat-img{
+    margin-right: 15px;
+}
+.mic{
+    margin-right: 15px;
+}
+.enviar{
+    margin-right: 15px;
 }
