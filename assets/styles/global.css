@@ -24,3 +24,6 @@
     border: none;
     padding: 18px;
 }
+.button {
+    cursor: pointer;
+}
