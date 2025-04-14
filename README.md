@@ -45,7 +45,7 @@ start index.html
 ## 📦 Deploy
 
 Este projeto está hospedado no **GitHub Pages**, e pode ser acessado através do seguinte link:  
-👉 [senai-gpt - Chat](https://pedroborimcod.github.io/senai-gpt/chat/)
+👉 [senai-gpt - Chat](https://pedroborimcod.github.io/senai-gpt-web/chat/)
 
 ---
 
